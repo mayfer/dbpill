@@ -6,7 +6,7 @@
     "--disable-warning=ExperimentalWarning"
   ],
   "scripts": {
-    "dev": "npx tsx run.ts --mode development --port 3000",
+    "dev": "npx tsx run.ts --mode development --web-port 3000",
     "dev-bun": "nodemon --exec 'bun run.ts' --watch server --watch shared --watch *.ts --ext ts,tsx,js,mjs,json",
     "build": "vite build",
     "prod": "vite build && bun run.ts --mode=production",
